@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <header>
+    Dipendra  Website
+      <a href="https://www.gehu.ac.in/" target="_blank">
+        <img class="Logo" src="images/Graphic_Era_Hill_University_Logo-Photoroom.png" alt="College Logo" />
+      </a>
+    </header>
+    <nav>
+      <ul class="main">
+        <li>
+          <a href="index.html">About</a>
+        </li>
+        <li>
+          <a href="Education.html">Education</a>
+        </li>
+        <li>
+          <a href="Gallery.html">Gallery</a>
+        </li>
+        <li style="float: right">
+          <a href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="places">
+      <ul ><button class="button" type="submit"  onclick="myFunction1()">Kedarnath</input> </ul>
+      <ul ><button class="button" type="submit"  onclick="myFunction2()">Badrinath</input> </ul>
+      <ul ><button class="button" type="submit"  onclick="myFunction3()">Yamunotri</input> </ul>
+      <ul ><button class="button" type="submit"  onclick="myFunction4()">Gangotri</input> </ul>
+      <ul ><button class="button" type="submit"  onclick="myFunction5()">Rishikesh</input> </ul>
+      <ul ><button class="button" type="submit"  onclick="myFunction6()">Pashupati</input> </ul>
+    </nav>
+    <aside id="Kedarnath" class="desc">
+        <img  class="gallery" src="images/Kedarnath-Yatra.jpg" alt="Temple image">
+        <h1>Kedarnath</h1>
+        <p class="t-about">Kedarnath is a town in Rudraprayag district in the state of Uttarakhand in India and has gained importance because of the Kedarnath Temple. It is approximately 86 kilometres from Rudraprayag, the district headquarter. It is a Nagar panchayat in the Rudraprayag district.Kedarnath is the most remote of the four Chota Char Dham pilgrimage sites. It is located in the Himalayas, about 3,583 m above sea level near the Chorabari Glacier, which is the source of the Mandakini river. The town is flanked by snow-capped peaks,.most prominently the Kedarnath Mountain. </p>
+    </aside>
+    <aside id="Badrinath" class="desc">
+        <img  class="gallery" src="images/Badrinath-Temple.jpg" alt="Temple image">
+        <h1>Badrinath</h1>
+        <p class="t-about">The Badrinath Temple also known as the Badrinarayan Temple, located in Uttarakhand's Badrinath town, is one of the four Char Dhams (four important pilgrimages) in the state. There are four pilgrim-destinations namely Yamunotri, Gangotri, Kedarnath, and Badrinath, collectively known as Char Dham. These pilgrimage centres draw large number of pilgrims each year, thus becoming the most important hubs of religious travel in the whole of Northern India.   </p>
+    </aside>
+    <aside id="Yamunotri" class="desc">
+        <img  class="gallery" src="images/yamunotri-6321379.jpg" alt="Temple image">
+        <h1>Yamunotri</h1>
+        <p class="t-about">Yamunotri is a part of Char Dham (along with Gangotri, Kedarnath and Badrinath), the four most revered Hindu pilgrimages in the Himalayas. The small mountain hamlet, with the Yamunotri Temple at its centre, attracts thousands of devotees every year and is the commencing point of the Char Dham Yatra pilgrimage (May to October), which proceeds from Yamunotri to Gangotri and finally to Kedarnath and Badrinath. Lodged in a narrow gorge, close to the source of the Yamuna, the Yamunotri Temple is dedicated to Yamuna, the second-most sacred river after the Ganges. </p>
+    </aside>
+    <aside id="Gangotri" class="desc">
+        <img  class="gallery" src="images/Gangotriwp2037939.jpg" alt="Temple image">
+        <h1>Gangotri</h1>
+        <p class="t-about">
+          One of the char dhams (the most sacred pilgrimage circuits in northern India with four holy destinations), Gangotri, in Uttarkashi, is a small town with the temple of Goddess Ganga at its heart. A 12-hour drive from Rishikesh, Gangotri is nestled among lofty Garhwal Himalayan peaks, glaciers and dense forests, and is one of highest pilgrimages in India (approx 3,415 m). Other than its divine atmosphere, Gangotri offers stunning vistas all around. According to Hindu legends, the most sacred of all rivers, Ganges (or Ganga), descended from heaven to earth at Gangotri, when Lord Shiva released the mighty river from his locks. </p>
+    </aside>
+    <aside id="Rishikesh" class="desc">
+      <img  class="gallery" src="images/Rishikesh57_4918.jpg" alt="Temple image">
+      <h1>Rishikesh</h1>
+      <p class="t-about">
+        Rishikesh, also written as Hrishikesh with H silent, is a city governed by Rishikesh Municipal Corporation (since October 2017), and a tehsil in Dehradun district of the Indian state Uttarakhand. Located in the foothills of the Himalayas in northern India, it is known as the " Gateway to the Garhwal Himalayas " and " Yoga Capital of the World .  </p>
+        
+  </aside>
+  <aside id="Pashupati" class="desc">
+    <img  class="gallery" src="images/pashupatinath-is-the.jpg" alt="Temple image">
+    <h1>Pashupati</h1>
+    <p class="t-about">
+      Pashupati Nath temple was located at Nepal Kathmandu and in Hindu dhrma blevies in after visiting all the 4 Dhams than also visit pashupatinath temple and that after this yatra will be complete.
+    </aside>
+
+  <footer>
+    <p id="demo"></p>
+      <script>
+        var date = new Date();
+        var day = date.getDate();
+        var month = date.getMonth()+1;
+        var year = date.getFullYear();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        document.getElementById("demo").innerHTML =
+          day + "-" + month + "-" + year + " " + " " + hour + ":" + min + " ";
+      </script>
+
+
+    <a href="https://www.instagram.com/imtheyatri/?hl=en">
+      <img
+        class="Insta-Icon"
+        src="images/instaIcon.jpeg"
+        alt="Instagram icon"
+      />
+    </a>
+    <a href="https://www.linkedin.com/in/dipendrajoshi77/">
+      <img
+        class="Link-Icon"
+        src="images/linkdinIcon.jpeg"
+        alt="Linkedin icon"
+      />
+    </a>
+    <p class="footer">Visit me at :</p>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <header>
+       Dipendra  Website
+      <a href="https://www.gehu.ac.in/" target="_blank">
+        <img class="Logo" src="images/Graphic_Era_Hill_University_Logo-Photoroom.png" alt="College Logo" />
+      </a>
+    </header>
+    <nav>
+      <ul class="main">
+        <li>
+          <a href="index.html">About</a>
+        </li>
+        <li>
+          <a href="Education.html">Education</a>
+        </li>
+        <li>
+          <a href="Gallery.html">Gallery</a>
+        </li>
+        <li style="float: right">
+          <a href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <table class="Education">
+      <tr class="eduHeader">
+        <th class="head">Degree</th>
+        <th class="head">Collage Name</th>
+        <th class="head">Percentage</th>
+        <th class="head">Achievements</th>
+      </tr>
+      <tr>
+        <td class="head">10<sup>th</sup></td>
+        <td> Mahakali School</td>
+        <td>80%</td>
+        <td>Clear  Enterance exams</td>
+      </tr>
+      <tr>
+        <td class="head">12<sup>th</sup></td>
+        <td>AdarshVidya Niketan School</td>
+        <td>65%</td>
+        <td>Represented our school cricket team</td>
+      </tr>
+      <tr>
+        <td class="head">1<sup>st</sup>Sem</td>
+        <td>GEHU</td>
+        <td>75%</td>
+        <td>Participated in Rifle Shooting</td>
+      </tr>
+      <tr>
+        <td class="head">2<sup>nd</sup>Sem</td>
+        <td>GEHU</td>
+        <td>85%</td>
+        <td>Part of Hackthon team</td>
+      </tr>
+      <tr>
+        <td class="head">3<sup>rd</sup>Sem</td>
+        <td>GEHU</td>
+        <td>84%</td>
+        <td>Project related to Core Java</td>
+      </tr>
+    </table>
+    <footer>
+      <p id="demo"></p>
+      <script>
+        var date = new Date();
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        document.getElementById("demo").innerHTML =
+          day + "-" + month + "-" + year + " " + " " + hour + ":" + min + " ";
+      </script>
+
+      <a href="https://www.instagram.com/imtheyatri/?hl=en">
+        <img
+          class="Insta-Icon"
+          src="images/instaIcon.jpeg"
+          alt="Instagram icon"
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/dipendrajoshi77/">
+        <img
+          class="Link-Icon"
+          src="images/linkdinIcon.jpeg"
+          alt="Linkedin icon"
+        />
+      </a>
+      <p class="footer">Visit me at :</p>
+    </footer>
+  </body>
+</html>

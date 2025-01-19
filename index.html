@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <header>
+   Dipendra Website
+  
+      <a href="https://www.gehu.ac.in/" target="_blank">
+        <img class="Logo" src="images/Graphic_Era_Hill_University_Logo-Photoroom.png" alt="College Logo" />
+      </a>
+    </header>
+
+    <nav>
+      <ul class="main">
+        <li>
+          <a href="About.html">About</a>
+        </li>
+        <li>
+          <a href="Education.html">Education</a>
+        </li>
+        <li>
+          <a href="Gallery.html">Gallery</a>
+        </li>
+        <li style="float: right">
+          <a href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <table>
+      <td>
+        <img id="myPic" src="images/mypic2.jpg" alt="Profile Pic" />
+      </td>
+      <td class="aboutMe">
+        <p>
+          <strong>Name:-</strong>Dipendra Joshi <br />
+          <strong>Collage:-</strong> GEHU <br />
+          <strong>Student Id:-</strong> 400755 <br />
+          <strong> Course:-</strong>BCA <br />
+          <strong>Duration:-</strong> 2024-2027 <br />
+          My name is Dipendra Joshi and I live in clement town ,Dehradun, Uttarakhand. I
+          completed my schooling from Adarsh Vidya Niketan Nepal. My expectation
+          from Front end Web application is that I'm hoping to learn something
+          new everyday and improve my skills.
+          </p>
+      </td>
+    </table>
+    <footer>
+      <p id="demo"></p>
+      <script>
+        var date = new Date();
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        let dateAndTime =
+          day + "-" + month + "-" + year + " " + " " + hour + ":" + min + " ";
+        document.getElementById("demo").innerHTML = dateAndTime;
+      </script>
+
+      <a href="https://www.instagram.com/imtheyatri/?hl=en">
+        <img
+          class="Insta-Icon"
+          src="images/instaIcon.jpeg"
+          alt="Instagram icon"
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/dipendrajoshi77/">
+        <img
+          class="Link-Icon"
+          src="images/linkdinIcon.jpeg"
+          alt="Linkedin icon"
+        />
+      </a>
+      <p class="footer">Visit me at :</p>
+    </footer>
+  </body>
+</html>

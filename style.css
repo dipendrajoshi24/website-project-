@@ -1,0 +1,220 @@
+body {
+    background-color: #d8d2cb;
+    cursor:not-allowed;
+    margin: 0;
+    padding: 0;
+    
+  }
+/* About page Css Start */
+  header {
+    text-align: center;
+    padding: 30px;
+    background-color: #733f3c;
+    color: white;
+    font-size: 50px;
+  }
+  .Logo{
+    float: right;
+  }
+  ul.main{
+    list-style-type: none;
+    background-color: #be8c63;
+    padding: 0;
+    margin: 0; 
+    font-size: 20px;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: black;
+  }
+  #myPic {
+    float: left;
+    width: 400px;
+    height: auto;
+    border: 15px solid #FDD7AA;
+    margin: 30px;
+  }
+  #myPic:hover {
+    opacity: 0.4;
+  }
+  .aboutMe {
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 100px;
+    padding: 10px;
+    float: right;
+    text-align: justify;
+    font-size: 20px;
+  }
+  footer {
+    clear: both;
+    background-color: #733c3c;
+    padding: 10px;
+    margin-top: auto;
+    overflow: auto;
+    margin-bottom: 0px;
+  }
+  p.footer {
+    font-size: large;
+    color: white;
+    float: right;
+  }
+  .Insta-Icon {
+    width: 50px;
+    height: auto;
+    float: right;
+    border-radius: 30px;
+    padding: 5px 8px;
+  }
+  .Insta-Icon:hover{
+    opacity: 0.4;
+    background-color: #fff;
+  }
+  .Link-Icon {
+    width: 50px;
+    height: auto;
+    float: right;
+    border-radius: 30px;
+    padding: 5px 8px;
+    margin-left: 40px;
+  }
+  .Link-Icon:hover{
+    opacity: 0.4;
+    background-color: #fff;
+  }
+  /* About page CSS End */
+
+  /* Education page Css Start */
+  .Education td,.Education th{
+    border:4px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px ;
+  }
+  .Education{
+    margin: 90px 3px;
+    width: 100%;
+    border:3px solid black;
+    border-collapse: collapse;
+  }
+.head{
+  background-color: #f0c711;
+  text-align: center;
+  color: white;
+}
+.Education tr:hover{
+  background-color: #97DBAE;
+}
+.head:hover{
+  background-color: #61A4BC;
+}
+/* Education page Css end */
+
+/* Gallery page Css Start */
+.places{
+  margin-top: 50px;
+  float: left;
+}
+.button{
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #43919B;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+.button:hover{
+  background-color: #F24A72;
+  font-size: 20px;
+}
+.desc{
+  float: right;
+  border: 4px solid black;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 30px;
+  height: 450px;
+  width: 75%;
+  background-color: rgb(241, 249, 249);
+}
+::selection{
+  color:red;
+  background-color: yellow;
+}
+img.gallery{
+  width: 500px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+.gallery:hover{
+  opacity:0.2
+}
+.t-about{
+  font-size: 25px;
+  margin-left: 30px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  line-height: 1.5;
+  
+}
+h1{
+  text-decoration:underline ;
+}
+#Kedarnath{
+  display: visible;
+}
+#Badrinath{
+  display: none;
+}
+#Yamunotri{
+  display: none;
+}
+#Gangotri{
+  display: none;
+}
+#Rishikesh{
+  display: none;
+}
+#Pashupati{
+  display: none;
+}
+#demo{
+  background-color: #F7CCAC;
+  padding: 20px;
+  margin:  auto 40px ;
+  border-radius: 25%;
+  font-size: 15px;
+  display: inline-block;
+}
+
+/* Gallery page Css end */
+/* Contact Css start */
+.contact{
+  padding: 12px;
+  height: 460px;
+}  
+.message{
+position: absolute;
+background-color:#FFE4C0;
+width: 460px;
+right: 70px;
+top:210px;
+border:10px solid #534340;
+padding: 5px;
+font-size: 20px;
+}
+/* Contact Css end */
+
