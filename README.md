@@ -22,7 +22,7 @@ HTML – Structure of the website
 CSS – Styling and layout
 
 JavaScript – Interactive elements, especially the gallery
-
+dipendrajoshi062@gmail.com
 
 📂 Project Structure
 
