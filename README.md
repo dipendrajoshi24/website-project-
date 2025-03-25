@@ -33,9 +33,6 @@ JavaScript – Interactive elements, especially the gallery
 │-- images/ (Contains images for the gallery)  
 │-- README.md
 
-📸 Screenshot
-
-(Add a screenshot of your website here)
 
 📜 How to Use
 
