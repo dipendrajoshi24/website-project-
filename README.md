@@ -1,10 +1,10 @@
- Personal Portfolio Website
+#   Personal Portfolio Website
 
-📝 About the Project
+# 📝 About the Project
 
 This is a personal portfolio website built using HTML, CSS, and JavaScript. The website contains my basic information and a dynamic image gallery implemented using JavaScript.
 
-🚀 Features
+# 🚀 Features
 
 📌 Personal Information Section – Displays details about me.
 
@@ -14,8 +14,7 @@ This is a personal portfolio website built using HTML, CSS, and JavaScript. The 
 
 ⚡ Interactive UI – Smooth and engaging user experience with JavaScript.
 
-
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 HTML – Structure of the website
 
@@ -24,7 +23,7 @@ CSS – Styling and layout
 JavaScript – Interactive elements, especially the gallery
 
 
-📂 Project Structure
+# 📂 Project Structure
 
 /project-folder  
 │-- index.html  
@@ -34,7 +33,7 @@ JavaScript – Interactive elements, especially the gallery
 │-- README.md
 
 
-📜 How to Use
+# 📜 How to Use
 
 1. Clone the repository or download the files.
 
