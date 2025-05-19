@@ -22,9 +22,7 @@ CSS – Styling and layout
 
 JavaScript – Interactive elements, especially the gallery
 
-
 # 📂 Project Structure
-
 /project-folder  
 │-- index.html  
 │-- style.css  
@@ -34,7 +32,6 @@ JavaScript – Interactive elements, especially the gallery
 
 
 # 📜 How to Use
-
 1. Clone the repository or download the files.
 
 
@@ -46,7 +43,6 @@ JavaScript – Interactive elements, especially the gallery
 
 
 📧 Contact
-
 If you have any questions or suggestions, feel free to reach out!
 
 dipendrajoshi062@gmail.com
