@@ -30,7 +30,6 @@ JavaScript – Interactive elements, especially the gallery
 │-- images/ (Contains images for the gallery)  
 │-- README.md
 
-
 # 📜 How to Use
 1. Clone the repository or download the files.
 
