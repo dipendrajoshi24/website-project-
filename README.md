@@ -1,5 +1,4 @@
 ##  Personal Portfolio Website
-
 ##  📝 About the Project
 This is a personal portfolio website built using HTML, CSS, and JavaScript. The website contains my basic information and a dynamic image gallery implemented using JavaScript.
 
