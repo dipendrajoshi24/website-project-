@@ -35,5 +35,4 @@ JavaScript – Interactive elements, especially the gallery
 
 📧 Contact
 If you have any questions or suggestions, feel free to reach out!
-
 dipendrajoshi062@gmail.com
