@@ -29,11 +29,6 @@ JavaScript – Interactive elements, especially the gallery
 
 ## 📜 How to Use
 1. Clone the repository or download the files.
-
 2. Open index.html in any web browser.
-
 3. Explore the portfolio and the gallery section.
 
-📧 Contact
-If you have any questions or suggestions, feel free to reach out!
-dipendrajoshi062@gmail.com
